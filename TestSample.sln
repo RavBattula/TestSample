@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchMarkSample", "BenchMar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeasureElapsedTime", "MeasureElapsedTime\MeasureElapsedTime.csproj", "{E2AC52AC-2BA1-4F4F-84FF-787890CC1540}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebView2SampleForCore", "WebView2SampleForCore\WebView2SampleForCore.csproj", "{2DCF6CB7-2E19-4AB5-8C94-F086405BE000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAzureServiceBus", "TestAzureServiceBus\TestAzureServiceBus.csproj", "{7178D7AC-65D9-4DD4-A5FA-B41529257504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +111,14 @@ Global
 		{E2AC52AC-2BA1-4F4F-84FF-787890CC1540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AC52AC-2BA1-4F4F-84FF-787890CC1540}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AC52AC-2BA1-4F4F-84FF-787890CC1540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCF6CB7-2E19-4AB5-8C94-F086405BE000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCF6CB7-2E19-4AB5-8C94-F086405BE000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCF6CB7-2E19-4AB5-8C94-F086405BE000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCF6CB7-2E19-4AB5-8C94-F086405BE000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7178D7AC-65D9-4DD4-A5FA-B41529257504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7178D7AC-65D9-4DD4-A5FA-B41529257504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7178D7AC-65D9-4DD4-A5FA-B41529257504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7178D7AC-65D9-4DD4-A5FA-B41529257504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
