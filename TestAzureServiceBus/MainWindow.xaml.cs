@@ -82,14 +82,17 @@ namespace TestAzureServiceBus
             }
             finally
             {
-
+                //await client.DisposeAsync();
+                //await serviceBusProcessor.StopProcessingAsync();
+                //serviceBusProcessor.DisposeAsync();
             }
         }
 
         private async Task MessageHandler(ProcessMessageEventArgs args)
         {
             string body = args.Message.Body.ToString();
-            MessageBox.Show($"Received: {body}");
+            //MessageBox.Show($"Received: {body}");
+            Console.WriteLine($"Received: {body}");
             await args.CompleteMessageAsync(args.Message);
         }
 
@@ -103,6 +106,7 @@ namespace TestAzureServiceBus
         private async void Button_Click_2(object sender, RoutedEventArgs e)
         {
             await serviceBusProcessor?.StopProcessingAsync();
+            serviceBusProcessor.DisposeAsync();
         }
     }
 }
