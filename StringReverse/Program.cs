@@ -23,6 +23,8 @@ namespace StringReverse
             Console.WriteLine(s);
             Console.WriteLine(final);
             Console.Read();
+
+            //string reversed = new string(s.Reverse().ToArray());
         }
     }
 }

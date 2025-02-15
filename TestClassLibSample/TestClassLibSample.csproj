@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net4</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>TestClassLib.FrameWork</PackageId>
+    <Nullable>disable</Nullable>
+	  <Authors>Ravi</Authors>
+	  <Company>Ravi</Company>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>TestClassLib.Core</Title>
+  </PropertyGroup>
+
+</Project>
