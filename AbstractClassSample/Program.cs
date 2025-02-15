@@ -7,6 +7,7 @@
         customer.Price = 100;
         decimal discountedAmoount = customer.CalculateDiscount();
         Console.WriteLine(discountedAmoount.ToString());
+        Console.WriteLine(customer.GetCustomerDetails());
 
         customer = new SilverCustomer() { ID = 1, Name = "Ravi" };
         customer.Price = 100;
@@ -28,6 +29,11 @@ public abstract class Customer
     public decimal Price { get; set; }
 
     public abstract decimal CalculateDiscount();
+
+    public string GetCustomerDetails()
+    {
+        return $"Customer Name: {Name}, Customer ID: {ID}";
+    }
 }
 
 public class GoldCustomer : Customer
