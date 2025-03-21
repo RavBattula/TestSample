@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Diagnostics.Contracts;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -51,3 +53,16 @@ public class SilverCustomer : Customer
         return Price * 5/100;
     }
 }
+
+public class A
+{
+    int x = 10;
+    public class B : A
+    {
+        public int GetVal()
+        {
+            return x;
+        }
+    }
+}
+

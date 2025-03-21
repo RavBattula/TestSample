@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFruitsOnRightSpot", "Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberLineJumps", "NumberLineJumps\NumberLineJumps.csproj", "{72F93768-6437-47DE-A461-C0548753E566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindLongestSubString", "FindLongestSubString\FindLongestSubString.csproj", "{990C386B-B8EA-4FA6-96FB-EDC855AC51FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayWithCookies", "PlayWithCookies\PlayWithCookies.csproj", "{D1AA5C4D-853C-4594-9C60-B4968C959C6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +177,14 @@ Global
 		{72F93768-6437-47DE-A461-C0548753E566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F93768-6437-47DE-A461-C0548753E566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F93768-6437-47DE-A461-C0548753E566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990C386B-B8EA-4FA6-96FB-EDC855AC51FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990C386B-B8EA-4FA6-96FB-EDC855AC51FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990C386B-B8EA-4FA6-96FB-EDC855AC51FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990C386B-B8EA-4FA6-96FB-EDC855AC51FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AA5C4D-853C-4594-9C60-B4968C959C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AA5C4D-853C-4594-9C60-B4968C959C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AA5C4D-853C-4594-9C60-B4968C959C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AA5C4D-853C-4594-9C60-B4968C959C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
