@@ -88,3 +88,11 @@ public class Solutionstring
         }
     }
 }
+
+public static class ExtensionMethods
+{
+    public static string Substring(this string str, int startIndex, int endIndex)
+    {
+        return str.Substring(startIndex, endIndex - startIndex);
+    }
+}
